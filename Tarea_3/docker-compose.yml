@@ -1,0 +1,40 @@
+version: '3'
+services:
+  db:
+    container_name: db_t3
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'secret'
+      MYSQL_DATABASE: 'tarea3'
+      MYSQL_PASSWORD: 'secret'
+      
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - base_mysql:/var/lib/mysql
+
+  backend:
+    container_name: backend_t3
+    restart: always
+    image: hugoses202002793/backend_t3
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    links:
+      - db
+  frontend:
+    container_name: frontend_t3
+    restart: always
+    image: hugoses202002793/frontend_t3
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    links: 
+      - backend
+volumes:
+  base_mysql: 
