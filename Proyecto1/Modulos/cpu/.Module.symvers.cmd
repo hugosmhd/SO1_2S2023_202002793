@@ -1,0 +1,1 @@
+cmd_/home/hugosmh/Escritorio/TAREAS_SOPES1/lab/SO1_2S2023_202002793/Proyecto1/Modulos/cpu/Module.symvers :=  scripts/mod/modpost -m -a     -o /home/hugosmh/Escritorio/TAREAS_SOPES1/lab/SO1_2S2023_202002793/Proyecto1/Modulos/cpu/Module.symvers -T /home/hugosmh/Escritorio/TAREAS_SOPES1/lab/SO1_2S2023_202002793/Proyecto1/Modulos/cpu/modules.order -i Module.symvers -e 
