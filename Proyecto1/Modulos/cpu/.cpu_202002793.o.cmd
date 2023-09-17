@@ -989,6 +989,7 @@ deps_/home/hugosmh/Escritorio/TAREAS_SOPES1/lab/SO1_2S2023_202002793/Proyecto1/M
     $(wildcard include/config/INIT_ON_ALLOC_DEFAULT_ON) \
     $(wildcard include/config/INIT_ON_FREE_DEFAULT_ON) \
     $(wildcard include/config/DEBUG_PAGEALLOC) \
+    $(wildcard include/config/ARCH_WANT_HUGETLB_PAGE_OPTIMIZE_VMEMMAP) \
     $(wildcard include/config/HUGETLBFS) \
     $(wildcard include/config/MAPPING_DIRTY_HELPERS) \
   include/linux/mmap_lock.h \

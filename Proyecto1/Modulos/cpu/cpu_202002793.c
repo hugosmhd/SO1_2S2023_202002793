@@ -104,7 +104,17 @@ static int escribir_archivo(struct seq_file *archivo, void *v)
             child = list_entry(lstProcess, struct task_struct, sibling);
             seq_printf(archivo, "\t\t \"hijo_pid\": %d,\n", child->pid);
             seq_printf(archivo, "\t\t \"estado\": %d,\n", child->__state); // se agrego
-            seq_printf(archivo, "\t\t \"hijo_nombre\": \"%s\"\n", child->comm);
+            seq_printf(archivo, "\t\t \"hijo_nombre\": \"%s\",\n", child->comm);
+
+            if (child->mm) {
+                // Ram de uso real
+                used_ram = get_mm_rss(child->mm);
+                // Convertir la cantidad de memoria utilizada a bytes
+                used_ram *= PAGE_SIZE;
+                seq_printf(archivo, "\t\t \"ram_consumo\": %ld\n", used_ram);
+            } else {
+                seq_printf(archivo, "\t\t \"ram_consumo\": 0\n");
+            }
 
             if (lstProcess->next == &(cpu->children)) {
                 seq_printf(archivo, "\t\t}\n");
