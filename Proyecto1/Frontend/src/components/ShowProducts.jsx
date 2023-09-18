@@ -48,6 +48,7 @@ import React,{ useEffect, useState } from 'react';
 import axios from 'axios';
 import { show_alerta } from '../functions';
 import { GraficaCircular } from './GraficaCircular'
+import NavbarCustom from './Navbar'
 import logo from '../assets/Usac_logo.png'
 
 const newChartData = {
@@ -123,7 +124,6 @@ const ShowProducts = () => {
         };
         setChartRAM(chart_ram);
         const cpu_uso = response.data.data_cpu.porcentaje_cpu / 1000000
-        // console.log(cpu_uso);
         const cpu_libre = 100 - cpu_uso
         const chart_cpu = {
           labels: ['CPU usado', 'Libre'],
@@ -153,7 +153,7 @@ const ShowProducts = () => {
     fetchData();
 
     // Configura un intervalo para realizar solicitudes cada 5 segundos.
-    // const intervalId = setInterval(fetchData, 500);
+    // const intervalId = setInterval(fetchData, 1000);
 
     // Puedes detener el intervalo cuando sea necesario (por ejemplo, al desmontar el componente).
     // return () => clearInterval(intervalId);
@@ -226,7 +226,7 @@ const ShowProducts = () => {
     
   return (
     <div block="true" className='mb-6'>
-        <Navbar bg="dark" variant="dark">
+        {/* <Navbar bg="dark" variant="dark">
             <Container>
             <Navbar.Brand className="align-items-center justify-content-between">
                 <img
@@ -246,7 +246,8 @@ const ShowProducts = () => {
                 </Nav.Link>
             </Nav>
             </Container>
-        </Navbar>
+        </Navbar> */}
+        <NavbarCustom />
         <div>
      </div>
         <div className="container mt-4">
@@ -323,6 +324,7 @@ const ShowProducts = () => {
                                 <th>Nombre</th>
                                 <th>Usuario</th>
                                 <th>Estado</th>
+                                <th>%RAM</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -332,6 +334,7 @@ const ShowProducts = () => {
                                     <td>{hijo.hijo_nombre}</td>
                                     <td>{proceso.user_id}</td>
                                     <td>{hijo.estado}</td>
+                                    <td>{(hijo.ram_consumo*100/totalRam).toFixed(2)}</td>
                                 </tr>
                             ))
                             }

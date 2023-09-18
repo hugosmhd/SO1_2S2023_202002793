@@ -72,8 +72,16 @@
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
+const mysql = require('mysql2/promise')
 
 const app = express();
+const pool = mysql.createPool({
+  host: 'db',
+  user: 'root',
+  password: 'secret',
+  port: 3306
+});
+
 const port = 3000;
 app.use(cors());
 app.use(express.json());
@@ -82,19 +90,16 @@ app.use(express.json()); // Para parsear JSON en las solicitudes
 
 cont = 1
 // apiUrlGo = "http://localhost:8000/data-kernel"
-apiUrlGo = "http://34.31.143.215:8000/data-kernel"
+apiUrlGo = "http://35.193.160.143:8000/data-kernel"
 
 app.get('/', (req, res) => {
-    // res.send('hola mundo ' + cont)
-    // cont++
+  // res.send("Hola mundo")
     axios.get(apiUrlGo)
     .then(response => {
       // Aquí puedes manejar la respuesta de la API en Go.
-      
       res.json({
-        data_ram: response.data.data_ram, 
+        data_ram: response.data.data_ram,
         data_cpu: response.data.data_cpu,
-        cpu_libre: 12
       });
     })
     .catch(error => {
@@ -103,6 +108,15 @@ app.get('/', (req, res) => {
     });
 });
 
+app.get('/ping', async (req, res) => {
+  try {
+    const result = await pool.query('SELECT NOW()')
+    res.send(result[0])
+  } catch (error) {
+    console.error('Error al realizar la consulta:', error);
+    res.status(500).send('Error interno del servidor');
+  }
+});
 
 app.post('/guardar-datos', (req, res) => {
   const data = req.body; // Los datos enviados desde Go

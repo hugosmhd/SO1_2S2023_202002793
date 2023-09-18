@@ -11,12 +11,6 @@ COPY . .
 RUN go build -o myapp
 
 EXPOSE 8000
-# Ejecuta la aplicación al iniciar el contenedor
-# ENV DB_HOST=MYSQL_Base
-# ENV DB_USER=root
-# ENV DB_PASSWORD=secret
-# ENV DB_PORT=3306
-# ENV DB_NAME=tarea3
 CMD ["./myapp"]
 
 #docker build -t app_go .

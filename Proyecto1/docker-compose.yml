@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'proyecto1'
+      MYSQL_ROOT_PASSWORD: 'secret'
+    ports:
+      - 3306:3306
+    container_name: db_proy1
+    expose:
+      - '3306'
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - base_mysql:/var/lib/mysql
+
+  backend:
+    image: hugoses202002793/backend_proy1_so1
+    restart: always
+    container_name: backend_proy1
+    depends_on:
+      - db
+    links:
+      - db
+    ports:
+      - 3000:3000
+      
+  frontend:
+    container_name: frontend_proy1
+    restart: always
+    image: hugoses202002793/frontend_proy1_so1
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    links: 
+      - backend
+
+volumes:
+  base_mysql: 
