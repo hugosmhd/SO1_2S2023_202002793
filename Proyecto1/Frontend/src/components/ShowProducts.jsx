@@ -50,6 +50,7 @@ import { show_alerta } from '../functions';
 import { GraficaCircular } from './GraficaCircular'
 import NavbarCustom from './Navbar'
 import logo from '../assets/Usac_logo.png'
+import Historial from './Historial';
 
 const newChartData = {
     labels: ['CPU usado', 'Libre'],
@@ -91,6 +92,8 @@ const ShowProducts = () => {
     // const url='http://localhost:8000';
 
     const [dataFromAPI, setDataFromAPI] = useState(null);
+    const [opcionSeleccionada, setOpcionSeleccionada] = useState(0);
+    const [maquinas, setMaquinas] = useState(null);
     const [chartCPU, setChartCPU] = useState(null);
     const [chartRAM, setChartRAM] = useState(null);
     const [totalRam, setTotalRam] = useState({totalRam: 1});
@@ -100,7 +103,8 @@ const ShowProducts = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(url); // Reemplaza con la URL de tu API Node.js.
+        const url_get = url+"/"+opcionSeleccionada
+        const response = await axios.get(url_get); // Reemplaza con la URL de tu API Node.js.
         setDataFromAPI(response.data);
         const total_ram = response.data.data_ram.Total_ram
         const ram_uso = response.data.data_ram.Porcentaje_en_uso
@@ -143,22 +147,87 @@ const ShowProducts = () => {
           ],
         };
         setChartCPU(chart_cpu);
-        setTotalRam(total_ram)
-      } catch (error) {
-        console.error('Error al obtener datos desde la API Node.js:', error.message);
-      }
+        setTotalRam(total_ram);
+        setMaquinas(response.data.maquinas)
+        } catch (error) {
+          console.error('Error al obtener datos desde la API Node.js:', error.message);
+        }
     };
 
     // Realiza la primera solicitud de inmediato.
     fetchData();
 
     // Configura un intervalo para realizar solicitudes cada 5 segundos.
-    // const intervalId = setInterval(fetchData, 1000);
+    const intervalId = setInterval(fetchData, 1500);
 
     // Puedes detener el intervalo cuando sea necesario (por ejemplo, al desmontar el componente).
-    // return () => clearInterval(intervalId);
-  }, []);
+    return () => clearInterval(intervalId);
+  }, [opcionSeleccionada]);
 
+  const handleKillButtonClick = async (id) => {
+    try {
+      // Realiza las acciones que deseas con el ID aquí
+      const url_kill = url+'/kill/'+id
+      console.log("Botón Kill presionado con el ID:", id);
+      console.log(url_kill);
+      const response = await axios.get(url_kill); // Reemplaza con la URL de tu API Node.js.
+      setDataFromAPI(response.data);
+      const total_ram = response.data.data_ram.Total_ram
+      const ram_uso = response.data.data_ram.Porcentaje_en_uso
+      const ram_libre = 100 - ram_uso
+      const chart_ram = {
+        labels: ['RAM usada', 'Libre'],
+        datasets: [
+          {
+            data: [ram_uso, ram_libre],
+            backgroundColor: [
+              'rgba(75, 192, 192, 0.2)',
+              'rgba(255, 206, 86, 0.2)',
+            ],
+            borderColor: [
+              'rgba(75, 192, 192, 1)',
+              'rgba(255, 206, 86, 1)',
+            ],
+            borderWidth: 1,
+          },
+        ],
+      };
+      setChartRAM(chart_ram);
+      const cpu_uso = response.data.data_cpu.porcentaje_cpu / 1000000
+      const cpu_libre = 100 - cpu_uso
+      const chart_cpu = {
+        labels: ['CPU usado', 'Libre'],
+        datasets: [
+          {
+            data: [cpu_uso, cpu_libre],
+            backgroundColor: [
+              'rgba(255, 99, 132, 0.2)',
+              'rgba(54, 162, 235, 0.2)',
+            ],
+            borderColor: [
+              'rgba(255, 99, 132, 1)',
+              'rgba(54, 162, 235, 1)',
+            ],
+            borderWidth: 1,
+          },
+        ],
+      };
+      setChartCPU(chart_cpu);
+      setTotalRam(total_ram)
+      // Puedes llamar a otras funciones o realizar cambios en el estado aquí
+    } catch (error) {
+      // Manejo de errores
+      console.error('Error al obtener datos desde la API Node.js:', error.message);
+    }
+  };
+
+  const handleSelectChange = (event) => {
+    const valorSeleccionado = event.target.value;
+    setOpcionSeleccionada(valorSeleccionado);
+    console.log(valorSeleccionado);
+    chartCPU = null;
+    
+  };
 
     // const openModal = (op,id, name, description, price) =>{
     //     setId('');
@@ -226,36 +295,19 @@ const ShowProducts = () => {
     
   return (
     <div block="true" className='mb-6'>
-        {/* <Navbar bg="dark" variant="dark">
-            <Container>
-            <Navbar.Brand className="align-items-center justify-content-between">
-                <img
-                src={logo}
-                alt="Logo"
-                width="50"
-                height="50"
-                className="d-inline-block align-top"
-                />{' '}
-                    Sistemas Operativos 1
-            </Navbar.Brand>
-
-            <Nav>
-                <Nav.Link href="#deets">Tiempo Real</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                Historial
-                </Nav.Link>
-            </Nav>
-            </Container>
-        </Navbar> */}
+      {/* <Historial /> */}
         <NavbarCustom />
-        <div>
-     </div>
         <div className="container mt-4">
-            <Form.Select size="lg">
-                <option>Seleccione la maquina</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+            <Form.Select size="lg" onChange={handleSelectChange} value={opcionSeleccionada}>
+            {maquinas != null ? (
+              maquinas.map((maquina, i) => (
+                <option key={i} value={i}>
+                  Maquina {i+1} - <strong>{maquina.nombre}</strong>
+                </option>
+              ))
+            ) : (
+              <option value="2">Cargando</option>
+            )}
             </Form.Select>
             <Row className="justify-content-center">
                 <Col md={3}>
@@ -280,7 +332,7 @@ const ShowProducts = () => {
                     className="me-2"
                     aria-label="Search"
                 />
-                <Button variant="outline-danger">Kill</Button>
+                  
                 </Form>
             </div>
             <h3>Procesos</h3>
@@ -295,7 +347,7 @@ const ShowProducts = () => {
                         <Table striped text-center bordered hover className="text-center">
                             <thead>
                             <tr>
-                                <th colSpan={5} style={{ backgroundColor: '#FF5733', color: 'white' }}>Proceso</th>
+                                <th colSpan={6} style={{ backgroundColor: '#FF5733', color: 'white' }}>Proceso</th>
                             </tr>
                             <tr>
                                 <th>PID</th>
@@ -303,6 +355,7 @@ const ShowProducts = () => {
                                 <th>Usuario</th>
                                 <th>Estado</th>
                                 <th>%RAM</th>
+                                <th></th>
                             </tr>
                             </thead>
                             <tbody>
@@ -312,12 +365,20 @@ const ShowProducts = () => {
                                     <td>{proceso.user_id}</td>
                                     <td>{proceso.estado}</td>
                                     <td>{(proceso.ram_consumo*100/totalRam).toFixed(2)}</td>
+                                    <td>
+                                      <Button 
+                                        variant="outline-danger"
+                                        onClick={() => handleKillButtonClick(proceso.pid)}
+                                        >
+                                          Kill
+                                      </Button>
+                                    </td>
                                 </tr>
                             
                             </tbody>
                             <thead>
                             <tr>
-                                <th colSpan={5} style={{ backgroundColor: ' #58d68d ', color: 'white' }}>Procesos hijos</th>
+                                <th colSpan={6} style={{ backgroundColor: ' #58d68d ', color: 'white' }}>Procesos hijos</th>
                             </tr>
                             <tr>
                                 <th>PID</th>
@@ -325,6 +386,7 @@ const ShowProducts = () => {
                                 <th>Usuario</th>
                                 <th>Estado</th>
                                 <th>%RAM</th>
+                                <th></th>
                             </tr>
                             </thead>
                             <tbody>
@@ -335,6 +397,14 @@ const ShowProducts = () => {
                                     <td>{proceso.user_id}</td>
                                     <td>{hijo.estado}</td>
                                     <td>{(hijo.ram_consumo*100/totalRam).toFixed(2)}</td>
+                                    <td>
+                                      <Button 
+                                        variant="outline-danger"
+                                        onClick={() => handleKillButtonClick(hijo.hijo_pid)}
+                                        >
+                                          Kill
+                                      </Button>
+                                    </td>
                                 </tr>
                             ))
                             }

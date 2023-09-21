@@ -1,19 +1,10 @@
 CREATE DATABASE IF NOT EXISTS proyecto1;
 USE proyecto1;
 
-CREATE TABLE IF NOT EXISTS uso_cpu (
+CREATE TABLE IF NOT EXISTS uso_cpu_ram (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    porcentaje INT,
-    fecha TIMESTAMP
+    nombre_vm VARCHAR(4),
+    porcentaje_ram INT,
+    porcentaje_cpu INT,
+    fecha DATETIME DEFAULT CURRENT_TIMESTAMP
 );
-
-CREATE TABLE IF NOT EXISTS uso_ram (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    porcentaje INT,
-    fecha TIMESTAMP
-);
-
-INSERT INTO uso_cpu (porcentaje, fecha) VALUES (75, NOW());
-INSERT INTO uso_cpu (porcentaje, fecha) VALUES (50, NOW());
-INSERT INTO uso_cpu (porcentaje, fecha) VALUES (35, NOW());
-INSERT INTO uso_ram (porcentaje, fecha) VALUES (72, NOW());

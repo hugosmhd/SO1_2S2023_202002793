@@ -1,11 +1,19 @@
 import { Table, Container, Row, Col, Form, Button, Card, Navbar } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 import React,{ useEffect, useState } from 'react';
 import logo from '../assets/Usac_logo.png'
 
 function NavbarCustom() {
+    const linkStyle = {
+        textDecoration: 'none', // Elimina la subrayado predeterminado
+        marginRight: '15px',   // Agrega espacio entre los enlaces
+        color: '#b3b6b7'         // Cambia el color del texto
+    };
+
+      
     return (
         <Navbar bg="dark" variant="dark">
             <Container>
@@ -21,10 +29,8 @@ function NavbarCustom() {
             </Navbar.Brand>
 
             <Nav>
-                <Nav.Link href="#deets">Tiempo Real</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                Historial
-                </Nav.Link>
+                <Link to="/tiempo-real" style={linkStyle}>Tiempo Real</Link>
+                <Link to="/historial" style={linkStyle}>Historial</Link>
             </Nav>
             </Container>
         </Navbar>

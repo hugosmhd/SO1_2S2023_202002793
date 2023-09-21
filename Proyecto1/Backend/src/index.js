@@ -1,102 +1,241 @@
-// const { google } = require('googleapis');
-
-// // Crea un cliente de autenticación
-// const auth = new google.auth.GoogleAuth({
-//   keyFilename: 'auth_gcp/clave_de_servicio.json', // Reemplaza con la ruta de tu clave de servicio JSON
-//   scopes: ['https://www.googleapis.com/auth/cloud-platform'],
-// });
-
-// // Crea un cliente de Compute Engine
-// const computeEngine = google.compute({
-//   version: 'v1',
-//   auth,
-// });
-
-// // Define el nombre de tu grupo de instancias
-// const instanceGroupName = 'instance-group-1';
-// const projectId = 'empyrean-box-397402'; // Reemplaza con el ID de tu proyecto GCP
-
-// // Obtiene la lista de instancias
-// async function getIPsInZone(zoneName) {
-//   try {
-//       // Obtiene una lista de todas las zonas en una región específica
-//     const res = await computeEngine.instances.list({
-//       project: projectId,
-//       zone: zoneName,
-//       filter: `name:${instanceGroupName}`,
-//     });
-
-//     console.log(`Direcciones IP externas en la zona ${zoneName} para el grupo ${instanceGroupName}:`);
-
-//     for (const instance of res.data.items) {
-//       const networkInterfaces = instance.networkInterfaces;
-
-//       networkInterfaces.forEach((networkInterface) => {
-//         const accessConfigs = networkInterface.accessConfigs;
-//         accessConfigs.forEach((accessConfig) => {
-//           if (accessConfig.natIP) {
-//             console.log(`Dirección IP externa de ${instance.name}: ${accessConfig.natIP}`);
-//           }
-//         });
-//       });
-//     }
-//   } catch (err) {
-//     console.error('Error al obtener las instancias en el grupo:', err);
-//   }
-// }
-
-// async function getAllZones() {
-//   try {
-//     const res = await computeEngine.zones.list({
-//       project: projectId,
-//     });
-
-//     const zones = res.data.items.map(zone => zone.name);
-
-//     console.log('Zonas disponibles:');
-//     console.log(zones);
-
-//     // Itera sobre las zonas y obtén las direcciones IP en cada zona
-//     for (const zone of zones) {
-//       await getIPsInZone(zone);
-//     }
-//   } catch (err) {
-//     console.error('Error al obtener la lista de zonas:', err);
-//   }
-// }
-
-
-// getAllZones();
-
-
+const { google } = require('googleapis');
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
-const mysql = require('mysql2/promise')
-
+const pool = require('./db');
 const app = express();
-const pool = mysql.createPool({
-  host: 'db',
-  user: 'root',
-  password: 'secret',
-  port: 3306
-});
+app.use(cors());
 
 const port = 3000;
-app.use(cors());
 app.use(express.json());
 
 app.use(express.json()); // Para parsear JSON en las solicitudes
 
-cont = 1
-// apiUrlGo = "http://localhost:8000/data-kernel"
-apiUrlGo = "http://35.193.160.143:8000/data-kernel"
+// Crea un cliente de autenticación
+const auth = new google.auth.GoogleAuth({
+  keyFilename: 'auth_gcp/clave_de_servicio.json', // Reemplaza con la ruta de tu clave de servicio JSON
+  scopes: ['https://www.googleapis.com/auth/cloud-platform'],
+});
 
-app.get('/', (req, res) => {
+// Crea un cliente de Compute Engine
+const computeEngine = google.compute({
+  version: 'v1',
+  auth,
+});
+
+// Define el nombre de tu grupo de instancias
+const instanceGroupName = 'instance-group-1';
+// const projectId = 'empyrean-box-397402'; // Reemplaza con el ID de tu proyecto GCP
+
+cont = 1
+numero_vm_actual = 0
+maquinas_actuales = []
+// apiUrlGo = "http://localhost:8000/data-kernel"
+apiUrlGo = "http://34.173.224.252:8000/"
+
+async function insertarDatos(ram_uso, cpu_uso, index) {
+  try {
+    const connection = await pool.getConnection(); // Obtén una conexión del pool
+    const name = maquinas_actuales[index].nombre
+    // const fecha_actual = new Date().toISOString();
+    const sql = 'INSERT INTO uso_cpu_ram (nombre_vm, porcentaje_ram, porcentaje_cpu) VALUES (?, ?, ?)'; // Define tu consulta SQL
+    const values = [name, ram_uso, cpu_uso]; // Especifica los valores a insertar
+    
+    const [result] = await connection.execute(sql, values); // Ejecuta la consulta
+    
+    // console.log('Filas afectadas:', result.affectedRows); // Verifica cuántas filas se insertaron
+
+    connection.release(); // Libera la conexión
+  } catch (error) {
+    console.error('Error al insertar datos:', error);
+  }
+}
+
+async function obtenerDatos(nombre_vm, limite) {
+  try {
+    const connection = await pool.getConnection(); // Obtén una conexión del pool
+    console.log(nombre_vm);
+    const [rows] = await connection.execute(
+      `SELECT * FROM uso_cpu_ram WHERE nombre_vm = ? ORDER BY fecha DESC LIMIT ${limite}`,
+      [nombre_vm]
+    );
+
+    // console.log('Resultados de la consulta:', rows);
+
+    connection.release();
+    return rows
+  } catch (error) {
+    console.error('Error al ejecutar la consulta:', error);
+  }
+}
+
+async function getIPsInGroup() {
+  try {
+    // console.log("Lala");
+    const projectId = 'empyrean-box-397402'; // Reemplaza con el ID de tu proyecto GCP
+    const zone = 'us-central1-c'; // Reemplaza con la zona de tus instancias
+    
+    const res = await computeEngine.instanceGroups.listInstances({
+      project: projectId,
+      zone: zone,
+      instanceGroup: instanceGroupName,
+    });
+    
+    // console.log('Direcciones IP externas de las instancias en el grupo:');
+    // console.log(res.data.items.length);
+
+    if(res.data.items.length != 0 && res.data.items.length > numero_vm_actual) {
+      numero_vm_actual = res.data.items.length;
+      for (const instanceInfo of res.data.items) {
+        const instanceUrl = instanceInfo.instance;
+        const instanceName = instanceUrl.split('/').pop();
+        const ultimosCuatro = instanceName.slice(-4);
+        // console.log(ultimosCuatro);
+        // maquinas_actuales.push(ultimosCuatro);
+
+  
+        const instanceDetails = await computeEngine.instances.get({
+          project: projectId,
+          zone: zone,
+          instance: instanceName,
+        });
+  
+        const networkInterfaces = instanceDetails.data.networkInterfaces;
+  
+        networkInterfaces.forEach((networkInterface) => {
+          const accessConfigs = networkInterface.accessConfigs;
+          accessConfigs.forEach((accessConfig) => {
+            if (accessConfig.natIP) {
+              const maquina = {
+                "nombre": ultimosCuatro,
+                "ip": accessConfig.natIP
+              }
+              maquinas_actuales.push(maquina);
+              console.log(`Dirección IP externa de ${instanceName}: ${accessConfig.natIP}`);
+            }
+          });
+        });
+      }
+
+    } else if(res.data.items.length != 0 && res.data.items.length < numero_vm_actual) {
+      numero_vm_actual = res.data.items.length;
+      for (const instanceInfo of res.data.items) {
+        const instanceUrl = instanceInfo.instance;
+        const instanceName = instanceUrl.split('/').pop();
+        const ultimosCuatro = instanceName.slice(-4);
+  
+        const instanceDetails = await computeEngine.instances.get({
+          project: projectId,
+          zone: zone,
+          instance: instanceName,
+        });
+  
+        const networkInterfaces = instanceDetails.data.networkInterfaces;
+        new_arreglo = []
+        networkInterfaces.forEach((networkInterface) => {
+          const accessConfigs = networkInterface.accessConfigs;
+          accessConfigs.forEach((accessConfig) => {
+            if (accessConfig.natIP) {
+              const maquina = {
+                "nombre": ultimosCuatro,
+                "ip": accessConfig.natIP
+              }
+              new_arreglo.push(maquina);
+              console.log(`Dirección IP externa de ${instanceName}: ${accessConfig.natIP}`);
+            }
+          });
+        });
+        maquinas_actuales = new_arreglo
+      }
+
+    }
+
+  } catch (err) {
+    console.error('Error al obtener las instancias en el grupo:', err);
+  }
+}
+
+app.get('/history/:index', async (req, res) => {
   // res.send("Hola mundo")
-    axios.get(apiUrlGo)
+  await getIPsInGroup();
+  const index = req.params.index;
+  const name = maquinas_actuales[index].nombre;
+  const limit = 20;
+  const rows = await obtenerDatos(name, limit);
+  label = []
+  data_ram = []
+  data_cpu = []
+
+  rows.forEach((row) => {
+    const id = row.id; // Accede a la columna 'id'
+    const porcentaje_ram = row.porcentaje_ram; // Accede a la columna 'porcentaje_ram'
+    const porcentaje_cpu = row.porcentaje_cpu / 1000000; // Accede a la columna 'porcentaje_cpu'
+    const fecha = row.fecha; // Accede a la columna 'fecha'
+    let periodo = '';
+    if (fecha.getHours() >= 12) {
+      periodo = 'PM';
+    } else {
+      periodo = 'AM';
+    }
+    const new_label = fecha.getHours()+":"+fecha.getMinutes()+":"+fecha.getSeconds()+periodo; // Obtiene la hora (0-23)
+    label.unshift(new_label)
+    data_ram.unshift(porcentaje_ram)
+    data_cpu.unshift(porcentaje_cpu)
+    // Realiza las operaciones que necesites con cada fila de resultados
+    // console.log(`ID: ${id}, RAM: ${porcentaje_ram}, CPU: ${porcentaje_cpu}, Fecha: ${new_label}`);
+  });
+  res.json({
+    data_ram: data_ram,
+    data_cpu: data_cpu,
+    label: label,
+    maquinas: maquinas_actuales,
+  });
+});
+
+app.get('/:index', async (req, res) => {
+  // res.send("Hola mundo")
+  await getIPsInGroup()
+  const index = req.params.index;
+  // console.log("Index ", index);
+  apiUrlGo = "http://"+maquinas_actuales[index].ip+":8000/"
+    axios.get(apiUrlGo+"data-kernel")
     .then(response => {
       // Aquí puedes manejar la respuesta de la API en Go.
+      // Llama a la función para insertar datos
+      const ram_uso = response.data.data_ram.Porcentaje_en_uso
+      const cpu_uso = response.data.data_cpu.porcentaje_cpu
+      insertarDatos(ram_uso, cpu_uso, index);
+      res.json({
+        data_ram: response.data.data_ram,
+        data_cpu: response.data.data_cpu,
+        maquinas: maquinas_actuales,
+      });
+    })
+    .catch(error => {
+      console.error('Error al obtener datos desde la API en Go:', error.message);
+      res.status(500).json({ error: 'Error al obtener datos desde la API en Go' });
+    });
+});
+
+app.get('/fill/vm', async (req, res) => {
+  await getIPsInGroup()
+  res.json({
+    maquinas: maquinas_actuales,
+  });
+});
+
+app.get('/kill/:id', (req, res) => {
+  const id = req.params.id;
+  // console.log(id);
+  // res.send("Hola Kill "+id)
+  axios.delete(apiUrlGo+'kill-proc/'+id)
+    .then(response => {
+      console.log("Se hizo kill a el PID: " + id);
+      // console.log(response);
+      // // Aquí puedes manejar la respuesta de la API en Go.
+      // // Llama a la función para insertar datos
+      // const ram_uso = response.data.data_ram.Porcentaje_en_uso
+      // const cpu_uso = response.data.data_cpu.porcentaje_cpu
       res.json({
         data_ram: response.data.data_ram,
         data_cpu: response.data.data_cpu,
@@ -120,7 +259,7 @@ app.get('/ping', async (req, res) => {
 
 app.post('/guardar-datos', (req, res) => {
   const data = req.body; // Los datos enviados desde Go
-    console.log(data);
+    // console.log(data);
   // Aquí puedes guardar los datos en tu base de datos
   // Ejemplo con MongoDB:
   // const MongoClient = require('mongodb').MongoClient;
