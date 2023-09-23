@@ -5,10 +5,6 @@ import (
 	"fmt"
 	"encoding/json"
 	"os/exec"
-	// "strings"
-	// "time"
-	// "net/http"
-	// "bytes"
 )
 
 type Children struct {
@@ -40,12 +36,7 @@ type DatosRAM struct {
 	Porcentaje_en_uso float64
 }
 
-// var count int
-
-
 func GetDataKernel(c *fiber.Ctx) error {
-	// data := fmt.Sprintf("data kernel hay que ir a traerla, count: %d", count)
-	// count++
 	data_ram := get_module_ram()
 	data_cpu := get_module_cpu()
 
@@ -62,15 +53,12 @@ func get_module_cpu()DatosCPU {
 		fmt.Println(cpu_err)
 	}
 
-
-	//Get the data from the CPU
 	cpu_output := string(cpu_data[:])
 	datos := DatosCPU{}
 	err := json.Unmarshal([]byte(cpu_output), &datos)
 	if err != nil {
 		fmt.Println("Error:", err)
 	}
-	// cpu_procesado := GetCpu(result)                             //Obtenemos los datos como json del cpu
 
 	return datos
 }
@@ -89,14 +77,12 @@ func get_module_ram()DatosRAM {
 		fmt.Println("Error:", err)
 	}
 
-	// fmt.Print(datos)
 	return datos
 }
 
 func KillProc(c *fiber.Ctx) error{
 	id, _ := c.ParamsInt("id")
 	comando := fmt.Sprint("kill ", id, " -9")
-	fmt.Println("comando:", comando)
 	cmd := exec.Command("sh", "-c", comando)
 	_, err := cmd.CombinedOutput()
 
@@ -112,30 +98,3 @@ func KillProc(c *fiber.Ctx) error{
 		"data_cpu": data_cpu,
 	})
 }
-
-// func CreateAlbum(c *fiber.Ctx) error {
-// 	var payload *Entities.CreateAlbumSchema
-	
-// 	if err := c.BodyParser(&payload); err != nil {
-// 		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{"status": "fail", "message": err.Error()})
-// 	}
-
-// 	errors := Entities.ValidateStruct(payload)
-// 	if errors != nil {
-// 		return c.Status(fiber.StatusBadRequest).JSON(errors)
-
-// 	}
-
-// 	newAlbum := Entities.Album_collection{
-// 		Title: payload.Title,
-// 		Artist: payload.Artist,
-// 		Year: payload.Year,
-// 		Genre: payload.Genre,
-// 	}
-
-// 	Config.Database.Create(&newAlbum)
-
-// 	return c.JSON(fiber.Map{
-// 		"albums": "albums",
-// 	})
-// }

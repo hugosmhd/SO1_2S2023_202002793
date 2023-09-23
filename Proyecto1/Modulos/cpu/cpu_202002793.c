@@ -27,7 +27,7 @@
 #include <linux/cred.h>
 
 MODULE_LICENSE("GPL");
-MODULE_DESCRIPTION("Modulo de memoria RAM");
+MODULE_DESCRIPTION("Modulo de CPU");
 MODULE_AUTHOR("Hugo Sebastian Martínez Hernández");
 
 struct task_struct *cpu;
