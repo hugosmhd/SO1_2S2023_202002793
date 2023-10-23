@@ -1,0 +1,8002 @@
+[
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201204437",
+        "nombre": "Joshuah Grumbridge",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202118637",
+        "nombre": "Sol McCarver",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201014233",
+        "nombre": "Lola Langer",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202200057",
+        "nombre": "Candide McKune",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201812552",
+        "nombre": "Archer Bysaker",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202020130",
+        "nombre": "Kris Auletta",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201511891",
+        "nombre": "Teodor Cheevers",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202207965",
+        "nombre": "Clotilda Plinck",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202203530",
+        "nombre": "Ban Hearl",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201509229",
+        "nombre": "Cristina Coviello",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201828877",
+        "nombre": "Bendix Ashbolt",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201604997",
+        "nombre": "Gaylene Kearey",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202212213",
+        "nombre": "Tobey Pagin",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202325964",
+        "nombre": "Daveta Pitrollo",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201800137",
+        "nombre": "Cory Culvey",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201813301",
+        "nombre": "Warner Sparkwell",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201100696",
+        "nombre": "Jacquie Binny",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201403498",
+        "nombre": "Marlee Beswetherick",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "202324789",
+        "nombre": "Clio Kenafaque",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": "201618995",
+        "nombre": "Christean Lomaz",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    }
+]
