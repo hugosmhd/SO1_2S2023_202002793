@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-svc
+spec:
+  type: ClusterIP
+  ports:
+    - port: 6379
+      targetPort: 6379
+  selector:
+    app: redis-deployment-db
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-deployment-db
+  namespace: so1p2
+spec:
+  replicas: 1  # Puedes ajustar el número de réplicas según tus necesidades
+  selector:
+    matchLabels:
+      app: redis-deployment-db
+  template:
+    metadata:
+      labels:
+        app: redis-deployment-db
+    spec:
+      containers:
+      - name: redis
+        image: redis:latest
+        ports:
+        - containerPort: 6379

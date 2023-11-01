@@ -7,7 +7,11 @@ import {
   getDataRedis
 } from './controller/redis.controller.js';
 import { 
-  getDataMysql 
+  getDataMysql,
+  getDataFirstChar,
+  getDataSecondChar,
+  getDataThirdChar,
+  getDataTable
 } from "./controller/mysql.controller.js";
 
 const app = express();
@@ -30,7 +34,6 @@ let semestre = '1S';
 
 app.get("/semestre/:parametro", (req, res) => {
   const parametro = req.params.parametro;
-  console.log(parametro);
   if(parametro == 1) semestre = '1S'
   else semestre = '2S'
   res.send(`Parámetro recibido: ${parametro}`);
@@ -39,10 +42,71 @@ app.get("/semestre/:parametro", (req, res) => {
 
 app.get("/reportes-estaticos", async (req, res) => {
   try {
-    const result = await getDataMysql();
-    console.log((result.primer_grafica));
-    res.send({ all_data: result.results, primer_grafica: result.primer_grafica});
+    const curso_apr = req.query.parametro1.toString().trim();
+    const sem_apr = req.query.parametro2.toString().trim();
+    const sem_prom = req.query.parametro3.toString().trim();
+    const sem_alum = req.query.parametro4.toString().trim();
+
+  // Acceder a los parámetros de consulta y realizar operaciones con ellos
+    const result = await getDataMysql(curso_apr, sem_apr, sem_prom, sem_alum);
+    res.send({ 
+      all_data: result.results, 
+      primer_grafica: result.primer_grafica,
+      segunda_grafica: result.segunda_grafica,
+      tercer_grafica: result.tercer_grafica
+    });
   } catch (error) {
+    res.status(500).send({ error: 'Error al obtener los datos de MySQL' });
+  }
+});
+
+app.get("/tabla-datos", async (req, res) => {
+  try {
+  // Acceder a los parámetros de consulta y realizar operaciones con ellos
+    const result = await getDataTable();
+    res.send({ 
+      all_data: result.results, 
+    });
+  } catch (error) {
+    res.status(500).send({ error: 'Error al obtener los datos de MySQL' });
+  }
+});
+
+app.get("/primer-grafica", async (req, res) => {
+  try {
+    const curso_apr = req.query.parametro1.toString().trim();
+    const sem_apr = req.query.parametro2.toString().trim();
+
+  // Acceder a los parámetros de consulta y realizar operaciones con ellos
+    const result = await getDataFirstChar(curso_apr, sem_apr);
+    res.send({ primer_grafica: result.primer_grafica});
+  } catch (error) {
+    res.status(500).send({ error: 'Error al obtener los datos de MySQL' });
+  }
+});
+
+app.get("/segunda-grafica", async (req, res) => {
+  try {
+    const sem_prom = req.query.parametro1.toString().trim();
+
+  // Acceder a los parámetros de consulta y realizar operaciones con ellos
+    const result = await getDataSecondChar(sem_prom);
+    res.send({ segunda_grafica: result.segunda_grafica});
+  } catch (error) {
+    console.log(error);
+    res.status(500).send({ error: 'Error al obtener los datos de MySQL' });
+  }
+});
+
+app.get("/tercer-grafica", async (req, res) => {
+  try {
+    const sem_prom = req.query.parametro1.toString().trim();
+
+  // Acceder a los parámetros de consulta y realizar operaciones con ellos
+    const result = await getDataThirdChar(sem_prom);
+    res.send({ tercer_grafica: result.tercer_grafica});
+  } catch (error) {
+    console.log(error);
     res.status(500).send({ error: 'Error al obtener los datos de MySQL' });
   }
 });

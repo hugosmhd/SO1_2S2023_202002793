@@ -25,12 +25,12 @@ function NavbarCustom() {
                 height="50"
                 className="d-inline-block align-top"
                 />{' '}
-                    Archivos
+                    Sistemas Operativos 1
             </Navbar.Brand>
 
             <Nav>
                 <Link to="/tiempo-real" style={linkStyle}>Tiempo Real</Link>
-                <Link to="/historial" style={linkStyle}>Historial</Link>
+                <Link to="/reportes-mysql" style={linkStyle}>Reportes estaticos</Link>
             </Nav>
             </Container>
         </Navbar>
