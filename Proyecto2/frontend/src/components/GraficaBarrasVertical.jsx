@@ -25,6 +25,11 @@ ChartJS.register(
 
 var misoptions = {
     animation: true,
+    plugins : {
+        legend : {
+            display : false
+        }
+    },
 };
 
 

@@ -16,7 +16,6 @@ import {
 
 const app = express();
 
-// Utiliza app.use para configurar middlewares
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -31,6 +30,10 @@ const io = new Server(server, {
 const port = process.env.PORT || 3000;
 
 let semestre = '1S';
+
+app.get('/', function (req, res) {
+  res.send('hello, world!')
+})
 
 app.get("/semestre/:parametro", (req, res) => {
   const parametro = req.params.parametro;
@@ -131,16 +134,3 @@ io.on('connection', (socket) => {
 server.listen(port, () => {
   console.log(`Servidor escuchando en el puerto ${port}`);
 });
-
-
-// import express from "express";
-// const app = express();
-// const port = process.env.PORT || 3000;
-
-// app.get("/", (req, res) => {
-//   res.send("¡Bienvenido a mi API!");
-// });
-
-// app.listen(port, () => {
-//   console.log(`Servidor en ejecución en el puerto ${port}`);
-// });

@@ -24,7 +24,7 @@ const ReportesMysql = () => {
   const [totalDatos, setTotalDatos] = useState(0)
   const [data, setData] = useState([])
 
-  const url = 'http://34.31.77.161:3000';
+  const url = 'http://34.41.203.179:3000';
   // const url = 'http://localhost:3000';
 
   useEffect(() => {
@@ -45,7 +45,6 @@ const ReportesMysql = () => {
         const url_get = url + `/primer-grafica?parametro1=${seleccionCursoAprobacion}
         &parametro2=${seleccionSemestreAprobacion}`
         const response = await axios.get(url_get); // Reemplaza con la URL de tu API Node.js.
-
         // Verifica si la respuesta es exitosa (código de estado 200)
         if (response.status === 200) {
           // Procesa la respuesta del servidor
@@ -277,8 +276,15 @@ const ReportesMysql = () => {
         
       </div>
 
-              {chartAprobacion != null ?
+              {/* {chartAprobacion != null ?
               (<GraficaCircular chartData={chartAprobacion} />) : "Cargando..."
+              } */}
+              {chartAprobacion == null || chartAprobacion.datasets[0] == null ? "Cargando...":
+              (chartAprobacion.datasets[0].data[0] > 0 && chartAprobacion.datasets[0].data[1] > 0 ? 
+                <GraficaCircular chartData={chartAprobacion}/> : 
+                <div className="mt-5 align-items-center justify-content-center" style={{ height: '100vh' }}>
+                  <h4 className="text-center">No hay informacion que mostrar</h4>
+                </div>) 
               }
             </div>
           </div>
@@ -294,9 +300,17 @@ const ReportesMysql = () => {
                   <option value="2S">2do Semestre - 2S</option>
               </Form.Select>
 
-              {chartBarPromedio != null ?
+              {/* {chartBarPromedio != null ?
               (<GraficaBarrasVertical chartData={chartBarPromedio}/>) : "Cargando..."
-            }
+              
+            } */}
+            {chartBarPromedio == null ? "Cargando...":
+              (chartBarPromedio.labels != null && chartBarPromedio.labels.length > 0 ? 
+                <GraficaBarrasVertical chartData={chartBarPromedio}/> : 
+                <div className="mt-5 align-items-center justify-content-center" style={{ height: '100vh' }}>
+                  <h4 className="text-center">No hay informacion que mostrar</h4>
+                </div>) 
+              }
             </div>
               
             </div>
@@ -312,9 +326,15 @@ const ReportesMysql = () => {
                   <option value="1S">1er Semestre - 1S</option>
                   <option value="2S">2do Semestre - 2S</option>
               </Form.Select>
-              {chartBarAlumnos != null ?
-              (<GraficaBarrasVertical chartData={chartBarAlumnos}/>) : "Cargando..."
+              {chartBarAlumnos == null ? "Cargando...":
+              (chartBarAlumnos.labels != null && chartBarAlumnos.labels.length > 0 ? 
+                <GraficaBarrasVertical chartData={chartBarAlumnos}/> : 
+                <div className="mt-5 align-items-center justify-content-center" style={{ height: '100vh' }}>
+                  <h4 className="text-center">No hay informacion que mostrar</h4>
+                </div>) 
               }
+
+              {/* <GraficaBarrasVertical chartData={chartBarAlumnos}/> */}
               </div>
             </div>
           </div>

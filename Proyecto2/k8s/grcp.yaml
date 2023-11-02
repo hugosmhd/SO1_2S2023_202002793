@@ -5,11 +5,11 @@ metadata:
 spec:
   ports:
   - name: grcp-port
-    port: 4000
+    port: 3000
     targetPort: 3800
   selector:
       name: grcp-deploy
-  type: LoadBalancer
+  type: ClusterIP
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -76,3 +76,17 @@ spec:
               key: DB_USER
       imagePullSecrets:
         - name: dockerhubpull
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: hpa-grcp
+  namespace: so1p2
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: grcp-deploy
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 50

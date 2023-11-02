@@ -76,6 +76,9 @@ func sendMysqlServer(rank Data) {
 func main() {
 	app := fiber.New()
 	
+	app.Get("/", func(c *fiber.Ctx) error {
+        return c.Status(200).SendString("hello, world go!")
+    })
 	app.Post("/insert", insertData)
 
 	err := app.Listen(":3800")

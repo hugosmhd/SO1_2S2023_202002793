@@ -1,8 +1,9 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, make_response
 from flask_cors import CORS
 import redis
 import pymysql
 from os import getenv
+import json
 
 app = Flask(__name__)
 CORS(app)
@@ -74,26 +75,60 @@ def insert_mysql(request):
     conexion.close()
 
 def insert_redis(request):
-    curso = request.json['curso']
-    semestre = request.json['semestre']
-    clave_contador = f"{curso}:{semestre}"
+    # 1. Agregar el carnet del estudiante al conjunto correspondiente.
+# Utiliza la combinación de curso y semestre como clave del conjunto.
+    curso = request.json["curso"]
+    semestre = request.json["semestre"]
+    carnet = request.json["carnet"]
 
     # Verifica si la clave del contador ya existe en Redis
-    if not r.exists(clave_contador):
+    if not r.exists("TOTAL"):
         # Si la clave no existe, inicializa el contador en 1
-        r.set(clave_contador, 1)
+        r.set("TOTAL", 1)
     else:
         # Si la clave ya existe, aumenta el contador en 1
-        r.incr(clave_contador)
+        r.incr("TOTAL")
 
-    contador_actual = r.get(clave_contador)
-    return jsonify({"mensaje": f"Contador para {curso} - {semestre}: {contador_actual.decode('utf-8')}"})
+    # Agregar el carnet al conjunto del curso y semestre específicos.
+    r.sadd(f"{curso}:{semestre}:carnets", carnet)
 
-@app.route('/add-data/', methods=['POST'])
+    # 2. Agregar la información completa del estudiante a la lista correspondiente.
+    # Utiliza la combinación de curso y semestre como clave de la lista.
+    estudiante_json = json.dumps(request.json)
+
+    # Agregar la información del estudiante a la lista del curso y semestre específicos.
+    r.lpush(f"{curso}:{semestre}:estudiantes", estudiante_json)
+
+    # 3. Para contar la cantidad de alumnos en un curso y semestre específicos, puedes usar el comando scard (cardinalidad del conjunto).
+    cantidad_alumnos = r.scard(f"{curso}:{semestre}:carnets")
+    return jsonify({"mensaje": f"Contador para {curso} - {semestre}: {cantidad_alumnos}"})
+# 4. Para obtener la lista de estudiantes en un curso y semestre específicos, puedes usar el comando lrange.
+    # curso = request.json['curso']
+    # semestre = request.json['semestre']
+    # clave_contador = f"{curso}:{semestre}"
+
+    # # Verifica si la clave del contador ya existe en Redis
+    # if not r.exists(clave_contador):
+    #     # Si la clave no existe, inicializa el contador en 1
+    #     r.set(clave_contador, 1)
+    # else:
+    #     # Si la clave ya existe, aumenta el contador en 1
+    #     r.incr(clave_contador)
+
+    # contador_actual = r.get(clave_contador)
+    # return jsonify({"mensaje": f"Contador para {curso} - {semestre}: {contador_actual.decode('utf-8')}"})
+
+@app.route('/', methods=['GET'])
+def get_init():
+    response = make_response('hello, world python!', 200)
+    return response
+
+@app.route('/insert/', methods=['POST'])
 def add_data():
     insert_mysql(request)
-    insert_redis(request)
-    return "Data received", 200
+    data = insert_redis(request)
+    return data, 200
+    # return "Data received", 200
 
 @app.route('/reporte', methods=['GET'])
 def generar_reporte():
